@@ -1,0 +1,26 @@
+
+Direção:
+- flex-row = direção em linha(padrão)
+- flex-col = direção colunar 
+
+Desafio 5:
+<div class="flex flex-col">
+  <p class="p-6 m-3 bg-red-500">1</p>
+  <p class="p-6 m-3 bg-green-500">2</p>
+  <p class="p-6 m-3 bg-yellow-500">3</p>
+  <p class="p-6 m-3 bg-blue-500">4</p>
+  <p class="p-6 m-3 bg-pink-500">5</p>
+  <p class="p-6 m-3 bg-gray-500">6</p>
+</div>
+
+Wrap:
+- flex-no-wrap = sem quebra de linha(padrão)
+- flex-wrap = com quebra de linha
+
+Flex:
+- flex-1 = flex: 1 1 0%(mesma largura)
+- flex-none = tira as propriedades flex do elemento
+
+Order:
+- order-x
+ex: order-1 order-last 

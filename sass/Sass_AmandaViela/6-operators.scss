@@ -1,0 +1,38 @@
+/*
+3 tipos de Operações no Sass: Numbers,colors and Strings
+*/
+
+//Numericas:  + , - , / , * e %(modulo)
+h1{
+    font-size: 2em + 22px;  //errado unidades diferentes
+    margin: 5px + 2; // 7px ok
+    padding: 5px * 2px; //errado, pois fica px²
+} 
+    
+/*    
+SUBTRAÇÃO( - ), O simbolo " - " pode ter diferentes sentidos no css:
+º numeros negativos = -2px;
+º subtração = 5px + -3px || ou 5px - 3px //essas são as maneiras certa de subtrair em Sass
+º Negação Unária = (-$var) //sempre deve ficar entre parênteses
+º Parte de um identificador = font-size
+*/
+
+//Divisão
+
+
+//Modulo:
+h1 {
+    font-size: $font % 2; // isso divide o valor da font e retorna o resto
+}            
+
+/*Cores:*/
+$cor1: #042509;
+$cor2: #9917FD;
+
+p{
+    background-color: $cor1 + $cor2;    
+    color: #010203 * 2;
+    //funciona também com RGBA, porém ambos devem ter o mesmo valor de Alpha
+}
+
+//Strings:

@@ -1,0 +1,56 @@
+/*
+--Defini os tamanhos das linhas conforme os valores passados
+--> Se um tamanho muda, o outro também muda
+--> Cuidado, o valor não aumenta se o contéudo aumentar em casos de valores especificos(px)
+*/
+
+.grid{
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+/*
+Areas:
+--Extremamente pratico pra formar um layout mais complexo
+-->grid-template-areas: cria a divisão dos templates
+-->grid-area: defini o nome do template e o seu local
+--> Por mais que você possa alterar a ordem do layout com grid, crie o layout na ordem correta de leitura
+*/
+
+.grid-template-areas-2{
+    grid-template-areas:
+        "logo logo nav"
+        "sidenav content content"
+        "sidenav advert  footer"
+}
+
+
+@media(max-width:500px){
+    .grid-template-areas-2{
+        grid-template-areas:
+            "logo logo logo"
+            "sidenav sidenav sidenav"
+            "nav nav nav"
+            "content content content"
+            "advert footer footer"
+    }
+}
+
+/* Outra coisa top do grid templates */
+.grid{
+    grid-template: 100px 100px / 1fr 1fr;/*2 linhas de 100px e 2 colunas de 1fr*/
+}
+
+.grid{
+    grid-template-areas:
+    "logo logo nav" 200px
+    "sidenav content content" 150px
+    "sidenav advert  footer" 1
+    / 1fr 2fr 300px
+} /*area valor-da-linha ... / valor-da-coluna*/
+
+/*em 2020 a atualização do css mudou grid-gap para gap, mas o browsers ainda dão suporte
+gap = espaço entre
+column-gap / grid-column-gap = just columns
+row-gap / grid-row-gap = just rows
+*

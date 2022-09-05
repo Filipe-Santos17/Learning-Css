@@ -1,0 +1,36 @@
+Bases do Tailwindcss:
+--Tudo é classe
+--Classes podem ser criadas 
+--Pseudo seletores devem ter : no final e colada com a classe
+
+Utility First:
+--Conjunto de classes 
+--Não sobrescreve css
+
+Problema:
+--Stress de classes no Html e poluição visual
+
+Responsivo - Mobile First:
+--breakpoints: sm(w - 640px), md(w - 768px), lg(w - 1024px) e xl(w - 1280px)
+--mobile é padrão
+
+Pseudo Classes:
+--hover: 
+--focus:
+
+Components:
+--Primeiro desenvolve o que precisa e depois transforma em component com apply
+--Ideal para quando precisar de uma estrutura html diferente
+
+No Style.css:
+@layer components{
+  .btn-blue{
+  @apply bg-blue-500 ml-6 ... Não pode colocar pseudo-classes
+  }
+  
+  .btn-blue:hover{
+  	@apply bg-blue-700
+  }
+}
+
+--Cada mudança nessa área deve ter um novo build

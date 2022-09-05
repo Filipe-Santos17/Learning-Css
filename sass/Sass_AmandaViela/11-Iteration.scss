@@ -1,0 +1,31 @@
+//Diretivas de Controle: loop
+
+@for $i from 1 through 3{ //through = de 1 até 3
+    .item#{$i}{
+        width: 2em * $i ;
+    }
+}
+
+@for $i from 1 through 3{ //to = de 1 até o ultimo menor que 3
+}
+
+//Lista, a lista pode ser de qualquer coisa
+$animals: puma, leopardo, onça, tigre;
+
+@each $animal in $animals{
+    .#{$animal}-icon{
+        background-image: url('images/#{$animal}.png');
+    }
+}
+
+
+//While
+
+$i: 6;
+
+@while $i > 0 {
+    .item#{$i}{
+        width: 2em * $i;
+    }
+    $i: $i - 2; //Se não decrementar ocorre um loop infinito
+}

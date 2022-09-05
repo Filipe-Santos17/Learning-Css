@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //Retornar Url
+        const url = window.location.href
+        console.log(url)
+
+        //1º elem com classe ativo
+        const at = document.getElementsByClassName("ativo") //esse retorna o primeiro, o all retorna todos
+        console.log(at)
+
+        const lang = window.navigator.language
+        console.log(lang)
+
+        const widthTela = window.screen.width
+        console.log(`A largura da tela é ${widthTela}`)
+    </script>
+
+    <h1>Texto</h1>
+    <h2>SubTexto</h2>
+    <p class="ativo">Paragrafo</p>
+</body>
+</html>

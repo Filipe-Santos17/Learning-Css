@@ -1,0 +1,80 @@
+DOM = Document Object Model = interface que controla objetos HTML e XML
+--Possivel alterar a estrutura e estilo do site
+--Manipular o DOM é igual a entender os metodos e propriedades da pagina
+--Window é o maior objeto do site, o 2º é o document, que contém os elementos do html
+--como window é global, ele não precisa ser escrito//pode ser abstraido
+
+document.querySelector('tag') // a tag representa o elemento
+--se for uma simples tag, escolhe a primeira tag no DOM
+--coloque dentro de uma variavel para ter o controle sobre o elemento
+
+ex:
+    const body = document.body
+    const h1Esc = document.querySelector(h1)
+    h1Esc.classList //retorna os valores das classes em Array
+    ...innerText // retorna texto
+    ...id // id
+    etc
+
+nomeConst.addEventListener('evento', função)
+ex:
+
+    h1Esc.addEventListener('click', function(){
+        console.log('Clicou em ', h1Esc.innerText) //retorna o Texto
+    })
+    //pode passar a função direto também | apenas o nome
+    
+    
+For Each | Arrow Function
+item.forEach( 1º param = callback/function(item, index, array) {})
+// forEach = para cada item //Nota: retorna sempre um array e apenas funciona em arrays
+//função anônima pois é executado apenas essa vez
+//item = elemento
+//index = numero do elemento, começando do 0 e incrementando
+//array = retorna a node list por completa
+//transformar em array com js - var Nova = Array.from(antigaVar) - ideal para tornar um HtmlCollection uma NodeList
+
+
+
+Manipulando Classes e atributos:
+
+--var.className = retorna uma lista de classes
+> Metodo antigo
+> var.className = var.className + ' classeNova' | var.className += ' classeNova' | var.className = 'classe classe2'
+//ambas as formas acima inserem classes da maneira antiga
+--var.classList = retorna um arrayLike contendo as classes
+--var.classList.add('classe1','classe2') = adiciona um ou mais classes
+.. .remove('classe1'...) = remove um ou mais classes
+.. .toggle('classe1') = se não tem a classe coloca se tem tira
+.. .contains('classe1') = true ou false / tem ou não tem
+.. .replace('classeAntiga', 'classeNova')
+
+-atributtos
+var.attributes = arrayLike/Objeto com os atributos
+var.getAttribute('valor')
+var.setAttribute('NomeAtributo', 'valor')//tendo o atributo, ou esse atributo existe ou não ele atualiza/insere no html
+var.hasAttribute('id') = true ou false
+var.removeAttribute('valor')
+
+metodo se coloca () no final para ser ativado	
+
+
+// Modifique o href do link externo no menu
+const link = document.querySelector('a[href^="http"]');
+link.setAttribute('href','https://www.google.com/');
+
+
+Dimensões e Distâncias:
+
+var.clientHeight = height + padding
+var.offsetHeight = height + padding + border //Height pode ser Top, Left entre outros que retorna a distância
+var.scrollHeight = height total,
+
+getBoundingClientRect() = cria uma especie de retangulo no elemento e retorna valores como width, height e distâncias
+
+window
+.innerWidth = valor do width do usuario
+.outerWidth = soma barra de endereço
+...height
+
+matchMedia('(max-width: 600px)') //similar ao media query

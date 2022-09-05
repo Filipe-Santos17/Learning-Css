@@ -1,0 +1,18 @@
+/*
+União de frases para facilitar a criação do codigo
+--permite padronizar nomes de seletores e valores
+*/
+
+$name: destaque;
+$attr: border;
+
+p.#{$name}{
+    #{$attr}-color: blue;
+}
+
+//Interpolação também pode ser usado para valores no codigo
+p{
+    $font-size: 12px;
+    $line-height: 30px;
+    font: #{$font-size}/#{$line-height};
+}

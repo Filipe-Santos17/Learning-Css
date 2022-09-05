@@ -1,0 +1,69 @@
+/*
+Variavel padrão no Sass:
+ `$nome: contéudo;`
+--Apenas o valor é transcrito para css, todas as variaveis somem
+--Sempre coloquem as variaveis no topo do codigo
+--Se houver duas palavras coloque um hífen/-
+*/
+
+/*
+7 tipos de Variaveis:
+1ºNumericos:
+--os valores podem ser reais ou inteiros, e podem ou não ter unidades(mas o css não aceita sem unidade)
+*/
+//ex:
+$width: 3.5rem;
+$width-px: 500px;
+$wid: 300;
+
+/*
+2ºStrings:
+--pode ser entre "" ou não(se colocar '' vira "")
+*/
+//ex
+$font: "Roboto";
+$weigth: bold;
+
+/*
+3ºCores:
+--pode ser frase, rgba(0,0,0,.7) e #hexadecimal
+*/
+//ex:
+$bg: red;
+$rgba: rgba(0,0,0,.7);//normalmente vira hexadecimal
+$hexa: #fff;
+
+/*
+4º e 5ºBooleans e Null:
+--Utilizadas dentro de funções
+*/
+$light: false;
+$dark: true;
+$color: null;
+
+/*
+6ºListas:
+--pode ser com "", com ',' ou puras 
+*/
+$list: puma dark web;
+$anima: "puma" "dark";
+$animal: "puma", "dark", "web";
+$margin: 10px 20px 30px 40px;
+
+
+/*
+7ºmaps:
+--similar a arrays no js
+*/
+$social: (
+ facebook: #3b5998,
+ flickr: #0063db,
+ github: #4183c4,
+ googleplus: #dd4b39,
+ instagram: #517fa4,
+ linkedin: #007bb6,
+ pinterest: #cb2027,
+ soundcloud: #f60,
+ twitter: #00aced,
+ youtube: #b00
+);

@@ -1,0 +1,27 @@
+Estude também por: https://github.com/amandavilela/curso-sass/tree/master/Apostila
+
+SASS = Syntactically Awesome Style Sheets (Pré-processador Css)
+
+Criado em 2006 por desenvolvedores Ruby para evitar repetição e adicionar heranças ao codigo css
+Objetivo: evitar repetição no css e trazer + produtividade no desenvolvimento
+Baseado na Filosofia DRY = Don't repete yourself
+
+O q é um pré processador: 
+--programa que recebe textos e efectua conversões léxicas, podendo haver substituição e inclusão
+--Sass é um meio não o produto final, o resultado é sempre css
+
+Requisitos Necessario para estudar Sass:
+--basico de css e de npm
+
+Instalação:
+ `sudo npm i -g node-sass`
+ 
+Diferença de Scss e Sass:
+--Arquivos .sass não precisa de ; ou {}, se baseia na identação
+--Arquivos .scss possuem {} e ;
+
+Gerando programa Scss:
+ `node-sass scss/style.scss:css/style.css`(converte apenas uma vez)
+--o comando pode ter ou não ter :(pode ser trocado por um ' '/espaço vazio)
+--> watch ou -w = faz conversão automatica
+

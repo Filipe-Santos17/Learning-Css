@@ -1,0 +1,55 @@
+/*
+@extend permite herdar estilos de outra classes
+*/
+
+$error: #f00;
+$alert: #ff8e00;
+
+.msg{
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+}
+
+.msg-error{
+    @extend .msg;
+    border-color: $error;
+    color: $error
+}
+
+.msg-alert{
+    @extend .msg;
+    border-color: $alert;
+    color: $alert;
+}
+
+//Em Pseudo-Elementos também funciona
+
+a{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.hoverlink{
+    @extend a;
+    color: #000;
+}
+
+//Pode-se extender mais de uma classe
+
+.error{
+    border: 1px #f00;
+    background-color: #fdd;
+}
+
+.attention{
+    font-size: 3em;
+    background-color: #ff0; //a classe seriouserror terá esse background - por ser o ultimo da folha css
+}
+
+.seriouserror{
+    @extend .error;
+    @extend .attention;
+    border-width: 3px;
+}

@@ -1,0 +1,41 @@
+React:
+-Modulos
+--React Completo: Ferramentas e JavaScript
+--React Para Iniciantes: React Básico, Webpack e Babel, Create React App, JSX, Eventos, Componentes, Propriedades
+--React Hooks: useState, useEffect, useRef, useMemo, useContext, Custom Hooks, Regras
+--Formulários: Input, Select, Radio, Checkbox, useForm, Validação
+--CSS: CSS Import, CSS Modules, Styled Components, Frameworks, Imagens
+--React Router: Router, Link, useParams, Nested Routes, Head
+--Mais React: PropTypes, Lazy e Suspense, Memo, useReducer, Classes
+--Projeto Final: API, Autenticação JWT, Scroll Infinito, Biblioteca Externa, Build, Loading
+
+-Ferramentas:
+--NodeJs
+--Git
+--Editor: Visual Studio
+--Extensões:
+---Live Server
+---Prettier
+---Origamid Next
+---Es7 React/Redux
+--Navegador: Chrome
+--React Developer Tools (Plugin de Navegador)
+
+Js:
+--Tudo é objeto
+--Se colocar uma expressão dentro de variavel(const, let, var) ela só poderá ser chamada depois de declarada
+--fetch = promise(função de callback)
+
+function ftP(url){
+  const resp = fetch(url)
+  const json = await resp.json()
+  return json
+}
+
+const prod = ftp('url')
+Foque em : Map
+
+Expressões: 
+--const x = a > b ? true : false
+--const a = true
+--const b = a && 'valor'

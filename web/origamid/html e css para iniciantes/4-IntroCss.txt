@@ -1,0 +1,37 @@
+link = cria uma relação entre um documento HTML e um arquivo CSS
+-rel = " tipo de arquivo "
+-href = " diretorio até o arquivo "
+
+seletor {
+    propriedade: valor ;(; ao final de cada propriedade)
+} ({} =  Bloco Css)
+
+--A ordem das propriedades importa, os ultimos tem preferência
+
+Seletores:
+-- Ñ precisa colocar html na frente, pois é uma div universal
+--sequencia de elementos indica hierarquia
+ex: div p{}
+no html: div > p
+--virgula entre elementos indica que possuem a mesma propriedade
+ex: 
+h1,p{
+    ...
+}
+--id = adiciona um indentificador único na tag(Nunca use mais de um)
+ex: #nomeid
+--class = indentificador reutilizavel na tag
+ex: .nomeclass
+--Utilize mais classes do q id e tags, assim evita muitas mudanças no html
+
+
+Background:
+--A tag vem com outras caracteritisas
+
+hexa = #00 00 00 = red, green, blue
+--quantidade de cada cor para utilizar no codigo
+--pode ser apenas 3 caracteres
+--caso for 4, o 4º indica a porcentagem(%)
+
+rgba(0,0,0,0) - valores referentes a cores
+a = alfa - de 0 a 1, indica força da cor

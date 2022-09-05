@@ -1,0 +1,18 @@
+//Em Scss as medias são inseridas sempre dentro dos seletores
+//Diretiva @content = children
+
+$tablet-width: 768px;
+
+@mixin tablet{
+    @media(min-width: #{$tablet-width}){
+        @content
+    }
+}
+
+header{
+    padding: 2em;
+
+    @include tablet{ //Dessa forma simplifica a inserção de media querys
+        padding: 1em;
+    }
+}

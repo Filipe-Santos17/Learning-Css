@@ -1,0 +1,12 @@
+//Diretivas de Controle
+$templ: dark;
+
+header{ //Condicionais dentro do css
+    @if($templ == dark){
+        color: white;
+    } @else if($templ == blue){
+        color: red;
+    } @else if($templ == red){
+        color: blue;
+    }
+}

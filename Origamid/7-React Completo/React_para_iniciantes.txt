@@ -1,0 +1,32 @@
+function component:
+--component basico do react, pode ser função ou classe
+func : const x = () => {}
+clss : class x extends React.Component{
+render(){}
+}
+
+composição:
+--Diferentes components podem ser montados e unidos na tela como um quebra cabeça
+
+Hooks:
+--Facilita a sincronização do estado
+
+Regras do React:
+--Apenas pode retornar um único elemento por função
+--Nada pode ser importado fora do Src
+
+Create React App:
+--Cria um programa React Completo do zero
+
+dica:
+"files.exclude":{
+    "node-modules":true
+}
+
+Características do React:
+--JSX: Javascript Extend - Html dentro de js
+--fragment <> = pseudo div, não cria nichos a mais no DOM
+--Todas palavras compostas do HTML se torna camelCase no JSX
+--class vira className
+--Expressões/Variaveis js podem ficar dentro de {} no proprio Html(até tags completas com contéudo podem ficar dentro de {})
+--Css com js perde "-" e vira tudo camelCase e ; sai e vira ,

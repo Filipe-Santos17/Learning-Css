@@ -1,0 +1,36 @@
+Exercicio 1:
+--Sem Exercicio
+
+Exercicio 2:
+--Rescreva o codigo utilizando os seletores basicos do Scss
+(no arquivo Exercicio.css ou no repositorio oficial)
+
+Exercicio 3:
+--Crie variaveis para as cores e medidas
+
+Exercicio 4:
+--Sem Exercicio
+
+Exercicio 5:
+--Crie um estilo de reuso para as proprieadades(padding,border with ,border style ,border radius)
+
+Exercicio 7:
+--Criar um mixin para trechos repetitivos como ex: border-radius e box sizing
+
+Exercicio 8:
+--Crie uma função que receba o valor em pixel e retorne em rem;
+
+Exercicio 9:
+--Transforme os estilos dos bottões em placeholders
+
+Aula 10 e 11:
+--Sem Exercicios
+
+Aula 12:
+--Transformar todas as medias em mixin 
+
+Aula 13:
+--Separe os arquivos em partials, importe uma font do google e insira tudo em um unico arquivo(style.scss)
+
+Aula 14:
+--Sem Exercicio

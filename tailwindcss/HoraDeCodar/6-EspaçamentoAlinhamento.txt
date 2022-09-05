@@ -1,0 +1,17 @@
+Alterando Espaçamento
+--Justify-* (start, center , end)
+--between = Espaçamento igual entre eles
+--around  = Espaço entre eles e nas laterais
+--Essa classe deve ser aplicada sempre no container pai
+
+<div class="flex justify-center bg-purple-500">
+  <p class="m-4 p-4">1</p>
+  <p class="m-4 p-4">2</p>
+  <p class="m-4 p-4">3</p>
+  <p class="m-4 p-4">4</p>
+  <p class="m-4 p-4">5</p>
+  <p class="m-4 p-4">6</p>
+</div>
+
+Alinhamento Eixo Y
+--content-* refere-se ao Alinhamento de contéudo no eixo y

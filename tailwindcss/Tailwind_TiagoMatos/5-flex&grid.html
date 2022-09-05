@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+    <link rel="stylesheet" href="tailwind.css"/>
+</head>
+<body>
+    <!--É necessario sempre colocar a classe flex para ativar o flexbox ou usar qualquer codigo do flexbox-->
+    <div class="h-1/2 flex flex-row justify-center items-center text-center font-black text-white text-6xl">
+        <div class="rounded m-3 w-64 h-64 bg-yellow-400 py-20">1</div>
+        <!--flex-grow permite que o item ocupe todo o espaço vago até o limite de padding-->
+        <!--flex-shrink-0 similar a um width-min-->
+        <div class="flex-grow flex-shrink-0rounded m-3 w-64 h-64 bg-red-400 py-20">2</div>
+        <div class="rounded m-3 w-64 h-64 bg-blue-400 py-20">3</div>
+    </div>
+    <br><br>
+    <div class="h-36 grid grid-cols-3 gap-4 text-center text-white text-6xl font-black">
+        <!--Sem necessidade de definir w,h ou m no display grid-->
+        <div class="col-span-2 rounded bg-yellow-400 py-20">1</div>
+        <!--Col-span-{} ocupe x unidades do grid-->
+        <div class="rounded bg-red-400 py-20">2</div>
+        <div class="rounded bg-blue-400 py-20">3</div>
+        <div class="rounded bg-yellow-400 py-20">4</div>
+        <div class="rounded bg-red-400 py-20">5</div>
+        <div class="rounded bg-blue-400 py-20">6</div>
+        <div class="rounded bg-yellow-400 py-20">7</div>
+        <div class="rounded bg-red-400 py-20">8</div>
+        <div class="rounded bg-blue-400 py-20">9</div>
+    </div>
+</body>
+</html>

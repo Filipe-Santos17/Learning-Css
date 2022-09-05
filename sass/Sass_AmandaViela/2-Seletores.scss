@@ -1,0 +1,46 @@
+/*
+Essa propriedade se chama Nesting, 
+--Não utilize mais de 3 niveis de Herança
+*/
+//ex: em sass
+nav {
+    ul {
+        li{
+            list-style: none;
+        }
+    }   
+}
+
+//ex: em css
+nav ul li {
+    list-style: none
+}
+/*
+propriedades aninhadas: 
+--Nesting também pode ser usado em propriedades
+*/
+nav{
+    font: {
+        family: 'Roboto', sans-serif;
+        style: italic;
+        size: 14px;
+        weight: bold;
+    }
+}
+
+/*
+pseudo-elementos:
+--Simplifica o uso de pseudo-elementos
+--use & quando o proximo item deve estar colado com o seletor
+*/
+//ex: em scss
+nav{
+    color: black;
+
+    &:hover{
+        color: red;
+    }
+}
+//ex: em css
+nav{ color: black;}
+nav:hover{color: red;}

@@ -1,0 +1,35 @@
+Grade de HTML e CSS para Iniciantes:
+--HTML, CSS, JavaScript, Editor de Código e Browser
+--HTML e CSS Básico: Tag, Estrutura HTML, Editor, CSS Básico, Box Model, Display, Imagens
+--CSS Posicionamento: Margin, Grid, Flexbox, Position
+--HTML e Semântico: Semântica e Acessibilidade, Pontos de Referência, Listas, Navegação
+--CSS Propriedades: Unidades, Tipografia, Background, Pseudo Classes e Elementos
+--Responsivo: Media Queries, Grid, Object Fit e Max Width
+--Projeto Portfólio
+--Ferramentas: Linha de Comando, Git e Automação
+--Mais HTML e CSS: Formulários, Especificidade, Propriedades Customizadas e CSS Utilitário
+--Projeto Final: Projeto Bikcraft criado do zero
+--JavaScript Básico: Tipos de dados, manipular o dom, objetos e outros
+--JavaScript Projeto: Link ativo, mostrar/esconder conteúdo, galeria de imagens, plugins e mais
+--Produção: Domínio, hospedagem, servidor, formulário
+
+Funções do Js:
+--Modificar estilo
+--Criar secções do site
+--Observar ações do usuario e criar reações/Eventos para mesma
+--Puxa informações de outros sites
+--Manipular dados
+
+Instalação:
+--VsCode
+--Google Chrome
+
+Extensões VsCode:
+--Origamid Next
+ctrl + shift + p >> Open Settings (Json)
+
+Browser:
+--Executa o código
+--Diferentes Browsers podem gerar Diferentes micros resultados
+--Todo site atualmente deve ser otimizado ao maximo para o Chrome
+--DevTools = área do navegador dedica a insepcionar e testar o codigo html, css e js

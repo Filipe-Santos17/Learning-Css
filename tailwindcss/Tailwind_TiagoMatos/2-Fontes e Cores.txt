@@ -1,0 +1,16 @@
+*** AULA 2 ***
+Font Size:
+-> text-valor
+o font size do tailwind segue um padrão de classes, desde xs para 0.75 rem até 5xl para 3rem
+padrão de tamanho: sm, base, lg, xl, 2xl, 3xl...
+
+Color:
+-> text-color-(50 a 900)
+
+Font Weight:
+-> font-valor:
+peso da fonte em relação ao negrito
+
+A dica para acelerar o aprendizado de Tailwind é consultar a documentação
+
+*** AULA 3 ***

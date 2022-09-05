@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container{
+            background-color: #ccc;
+            height: 200px;
+            display: flex; /*Apenas isso ja ativa o flexbox*/
+            flex-direction: row; /*Por padrão a direction é row*/
+            flex-wrap: nowrap; /*nowrap (valor padrão) impede a quebra de linha*/
+            flex-flow: row nowrap; /*união de direction e wrap*/
+            justify-content: center; /*flex-start e center e flex-end*/
+            /*space-around | space-between*/
+            align-items: stretch; /*Valor padrão -- alinhamento na horizontal*/
+            /*baseline | flex-start | flex-end | center*/
+            align-content: stretch; /*alinhamento na vertical -- similar ao items*/
+        }
+
+        .item{
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 5px;
+            flex-basis:  20px;
+        }
+
+        .article1{order: 2; flex-grow: 3;} /*order é uma propriedade aplicada somente a um filho do flexbox*/
+        /*Altera a ordem */
+        /*flex-grow é a proporção de tamanho multiplicado*/
+        /*coloque o flex-grow na */
+        .article2{order: 3; align-self: center;}
+        .article3{order: 1; flex-shrink: 2;} 
+        /*flex-shrink diz que ele pode assumir uma proporção de redução maxima*/
+        /*flex: flex-grow flex-shrink flex-basis*/
+    </style>
+</head>    
+<body>
+    <section class="container">
+        <article class="item article1">
+            Article 1
+        </article>
+        <article class="item article2">
+            Article 2
+        </article>
+        <article class="item article3">
+            Article 3
+        </article>
+    </section>
+</body>
+</html>

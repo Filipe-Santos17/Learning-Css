@@ -1,0 +1,15 @@
+º Live Server = abre um servidor para fazer hot reload do html
+º Prettier = Formata o codigo 
+
+Comandos Basicos
+ctrl + c = copia
+ctrl + v = cola
+ctrl + b = desativa o explorer
+ctrl + k + ctrl + c = torna a linha do codigo um comentario
+ctrl + shift + p = abre a pesquisa de configurações do vscode
+
+
+KeyBoard Settings:
+--> ctrl + shift + p e escreva 'keyboard Settings'
+--> Aba para exibir as configurações e atalhos do vscode
+--> permite manipular e criar atalhos

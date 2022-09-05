@@ -1,0 +1,30 @@
+Grade do Curso:
+-Ferramenta Figma
+-UI Design
+--Espaços
+--Tipografia
+--Cores
+--Luz e Sombra
+--Imagens e Ícones
+-Interfaces
+-Projeto Pessoal
+-UX Design
+-Wireframe
+-Protótipo
+
+Design é Projeto:
+-Plano primeiro, testes depois
+-Padrões existem, aprenda a indentificar e definir
+--Rascunho = desenho inicial do Projeto
+--Wireframe = Proximo do final, feito para testes(normalmente feito em um app de Design como Figma)
+--Protótipo = parte final(nunca comece com essa parte, é mais dificil de alterar)
+ex:
+Logo                           Menu
+
+Design é Intenção:
+-Tudo deve ter uma intenção e um propósito
+
+
+
+Atividades:
+--> Visite 3 sites e liste 5 coisas em comum em Design e o por que de cada 

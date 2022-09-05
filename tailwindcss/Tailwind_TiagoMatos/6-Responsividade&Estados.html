@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aula 6</title>
+    <link rel="stylesheet" href="tailwind.css">
+</head>
+<body class="bg-red-600 sm:bg-gray-800">
+    <h1 class="text-sm sm:text-base md:text-xl lg:text-2xl">
+        Hello Responsividade!
+    </h1>
+
+    <h2 class="text-red-500 hover:text-blue-600">
+        Hello Hover
+    </h2>
+
+    <p class="text-gray-700 hover:text-blue-700 hover:underline">
+        Hello Link
+    </p>
+
+    <!--Group torna o codigo um container e permite criar hovers simultâneos-->
+    <div class="group rounded w-64 bg-gray-100 p-4">
+        <h1 class="font-bold group-hover:text-blue-300">Título do Meu Card</h1>
+        <p class="text-gray-500 group-hover:text-blue-700 font-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam sed dolorem! Tempora in, velit quidem sequi fugit doloremque vitae!</p>
+    </div>
+    <br>
+    <!--focus: = Quando em foco ocorre uma reação-->
+    <input 
+    type="text"
+    class="rounded bg-gray-100 text-lg px-4 py-2 focus:text-red-300 hover:bg-gray-200"
+    />
+</body>
+</html>

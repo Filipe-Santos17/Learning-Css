@@ -1,0 +1,43 @@
+Motivos para escolher o tailwind:
+-Foco em Utility e não components
+--Você cria e não pega pronto
+-Pouco ou nenhum CSS
+--Raramente se usa CSS pois o tailwind abstrai muito, evita sobreposição de CSS
+-Foco em Responsividade
+--Mobile First é padrão do tailwind
+-Podemos criar components
+--Facilidade de reproduzir codigo com Aply
+-Facilidade em Customização
+
+Propósitos para optar ao Tailwind:
+-Diminuir o tempo codificando CSS
+-Liberdade entre os Components
+-Facilidade em estender e customizar as configurações
+-Inicia já no mobile-first
+
+Donwload:
+node
+vscode:
+--Live Server
+--Tailwind CSS Intellisense
+
+No Terminal:
+--> npm install tailwindcss
+
+Styled.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+No Terminal:
+--> npx tailwindcss init
+
+No Terminal:
+--> npx tailwindcss build nome.css -o rota/nome.css
+
+Como usar melhor o Curso:
+--Faça projetos pessoais
+--Use no dia a dia e revise
+--Veja a aula e replique depois
+
+

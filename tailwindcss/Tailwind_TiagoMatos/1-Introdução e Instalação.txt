@@ -1,0 +1,21 @@
+O q é TailwindCss:
+--Utility-first css Framework(intenção é construir mais rapido)
+--Cada Atributo do Css tem uma classe tailwind especifica == Utility first
+--Estrutura css de Baixo Nível(possui uma classe para cada atributo do css), personalizavel que não necessita sobrescrições de classes
+
+Resumo:
+--Tailwind é o css escrito no html(como no inline-style), mas de forma padronizada com classes prefixadas e mais simples de escrever
+
+Vantagens do Tailwind:
+--Tailwind permite injetar/criar suas proprias classes CSS
+--Melhor que o inline style, pois o inline não permite media query, nem estados e não possui padronização(tudo isso o tailwind possui)
+--Evita sobrescrições de classes e Hierarquia(problemas do Bootstrap)
+--Facilita o Design Responsivo com classes proprias(md,lg...)
+--estados, hover e focus são tags prefixadas, o que torna mais facil o desenvolvimento
+--dark é uma tag prefixada no tailwind, simplifica criar o dark mode
+
+
+Tailwind CLI(Client): Duvidas consulte o site oficial // Necessario o nodejs
+-> npx tailwindcss -o tailwind.css
+(-o de output)
+--O resultado são todas as tags, classes e etc do tailwind  

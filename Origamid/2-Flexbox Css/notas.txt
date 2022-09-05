@@ -1,0 +1,18 @@
+Display: flex
+--respeita o contéudo, não diminui além do minímo do contéudo
+--fica tudo em linha reta, evitando a necessidade do float
+
+Flex-direction:
+--direção dos items/filhos do elemento flex, por padrão é row, mas pode ser column
+--ambos(row e column)  possuem *-reverse para inverter a ordem de exibição dos elementos
+
+Flex-wrap:
+--quebra ou não quebra linha quando contéudo diminuir muito
+--por padrão é nowrap
+--também possui reverse
+
+Flex-flow:
+--união de 'direction' e 'wrap|nowrap'
+
+Justify-content:
+--Alinha 

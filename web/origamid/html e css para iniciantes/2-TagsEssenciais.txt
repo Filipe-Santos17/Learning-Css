@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+--Simbolo de que se trata do html
+
+html - Tag Geral
+--Todo codigo deve estar dentro dela
+--universal
+
+head - cabeça
+--Contém informações basicas ao browser
+--o titulo fica nessa secção
+--tags metas
+--ex: meta charset="utf-8" > indica a linguagem da pagína aceitara caracteres da acentuação latina
+
+body - corpo
+--Contém todas as tags e informações visiveis na pagínas
+
+h1 - titulo principal
+--Diz ao navegador qual o contéudo interresante dessa pagína
+
+p - paragrafo
+--Se refere ao conteúdo de um paragrafo/conjunto de texto
+
+a - link
+--Link para outra pagína
+--caminho (path)
+--absoluto: arquivos externos ao site principal
+ex: <a href="https://www.origamid.com/cursos/">Origamid Cursos</a>
+--relativo: arquivos internos do site
+ex: <a href="/produtos/bicicletas.html">Bicicletas</a>
+nota ../ significa voltar uma pasta
+nota: / significa diretorio raiz, sem o '/' ele procura apenas na mesma pasta

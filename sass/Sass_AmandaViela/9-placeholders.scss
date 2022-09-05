@@ -1,0 +1,18 @@
+/*
+placeholders permitem reaproveitar codigos de estilos estaticos(iguais sempre),
+já os mixins e as funções são utilizadas em si para estilos dinâmicos(padrão igual mas com diferentes valores)
+*/
+
+%center{ //todo placeholder deve começar com %
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    @extend %center; //extend para placeholder e include para placeholders
+    //o extend agrupa codigos iguais, o mixin não
+}
+
+p{
+    @extend %center
+}
